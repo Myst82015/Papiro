@@ -1,0 +1,22 @@
+{
+  "name": "guardian",
+  "version": "1.0.0",
+  "description": "Dicord Bot for Chill with Skill",
+  "main": "server.js",
+  "scripts": {
+    "test": "pm2 server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Myst82015/Guardian.git"
+  },
+  "author": "Marcel (v2)  Myst82015 (v1)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Myst82015/Guardian/issues"
+  },
+  "homepage": "https://github.com/Myst82015/Guardian#readme",
+  "dependencies": {
+    "discord.js": "^11.5.1"
+  }
+}

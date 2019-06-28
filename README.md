@@ -1,2 +1,2 @@
-# Papiro
-A bot who guards your server
+# Guardian
+Guardian bot for Chill with Skill
