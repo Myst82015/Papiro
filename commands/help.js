@@ -10,17 +10,14 @@ async function run(client, message, args, Discord) {
     let embed= new Discord.RichEmbed()
     .setColor("BLUE")
     .setDescription("Papiro Help")
-    .addField("Available Commands:", "```config``` See the current config\n```serveinfo``` Displays some informations about the server")
+    .addField("Available Commands:", "```config``` See the current config\n```serverinfo``` Displays some informations about the server\n```stats```Displays some statistics about the bot\n```partnerships```Displays the current partner bots")
     message.channel.send(embed)
-//message.channel.send('Help menu is coming soon')
 }
         
 module.exports = {
     config: {
-        enabled: true,
-        guildOnly: true,
-        name: 'help', // Command Name
-        aliases: ['h'], // Aliases vom Command
+        name: 'help', 
+        aliases: ['h'], 
     },
     run: run
 };
