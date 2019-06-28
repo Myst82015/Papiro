@@ -1,7 +1,7 @@
 /* eslint-disable no-useless-escape */
 module.exports = {
-    token: 'YOUR_TOKEN',
-    prefix: 'p!',
+    token: 'YOUR_TOKEN', // Your bot token , obtain yours here https://discordapp.com/login?redirect_to=%2Fdevelopers%2Fapplications%2F
+    prefix: 'p!', //prefix of the bot
     owner: ['263022860551847936', '232958128696590346'],
     RegEx: {
         discordMarkdown: {
@@ -26,6 +26,7 @@ module.exports = {
             second: /^(?:http(s)?:\/\/)?[\w.-]+(?:\.[\w\.-]+)+[\w\-\._~:/?#[\]@!\$&'\(\)\*\+,;=.]+$/gm
         }
     },
+    //Papiro will log the message deletions into a certain channel. Therefore you need to create a weebhook for this channel
     Logging: {
         WebHook: {
             id: 'ID_OF_WEBHOOK',
