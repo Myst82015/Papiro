@@ -2,7 +2,7 @@
 module.exports = {
     token: 'YOUR_TOKEN',
     prefix: 'p!',
-    owner: ['263022860551847936'],
+    owner: ['263022860551847936', '232958128696590346'],
     RegEx: {
         discordMarkdown: {
             emoji: /^<a?:(\w+):(\d+)>$/g,
