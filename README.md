@@ -1,6 +1,8 @@
+My # Discord Hackweek entry
+
 # Papiro
-A bot who guards your server.
-So Discord Hackweek is here! And there are people who are joinng my server and keep spamming discord invite links and nsfw links. 
+
+So Discord Hackweek is here! And there are people who are joining my server and keep spamming discord invite links and nsfw links. 
 So I thought it would be useful to code a bot like this. Small, simple and lightweight. and working of course ^^
 
 # So what does the bot do?
