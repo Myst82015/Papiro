@@ -1,4 +1,4 @@
-My # Discord Hackweek entry
+My Discord Hackweek entry
 
 # Papiro
 
